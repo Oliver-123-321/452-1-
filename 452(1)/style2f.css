@@ -1,0 +1,164 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+
+header {
+  background-color: #31a3ea;
+  color: #fff;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: 3px solid #77C1E3;
+}
+
+
+header h1 {
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0;
+  font-size: 24px;
+}
+
+.vertical-menu{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav {
+  background-color: #73c3f5;
+  overflow: hidden;
+}
+
+
+nav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+
+nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+nav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+
+main {
+  padding: 16px;
+  margin-left: 0;
+}
+
+
+
+
+.image-container {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  height: 100%; 
+}
+
+.center {
+  max-width: 100%; 
+  height: auto;
+  text-align: center; 
+}
+.A {
+  
+  padding: 10px; 
+  margin: 10px 0; /* 外边距 */
+  text-align: center; /* 文本居中 */
+  border-radius: 6px;
+  background-color: rgb(232, 231, 230);
+  padding: 1rem;
+  display: flex; /* 启用Flexbox布局 */
+  align-items: center; /* 子元素在交叉轴（垂直方向）上居中对齐 */
+  margin: 0 auto;
+  width: 80%;
+  margin-top: 20px;}
+
+.A  {
+  max-width: 100%; /* 图片最大宽度 */
+  height: auto; /* 图片高度自动 */
+  }
+  .image-container p {
+  margin-top: 5px; /* 介绍与图片之间的间距 */
+  }
+  .caption {
+  margin: 5px 0; /* 为每个caption添加间距 */
+  }
+  .A:hover {  
+    transform: translateY(-5px);  
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);  
+  }
+
+.text-container {
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  justify-content: center; 
+  height: 100%; 
+  /* 确保文本容器有一个明确的宽度 */
+  width: 80%; /* 根据需要调整 */
+  /* 设置以下属性以确保文本会自动换行 */
+  word-wrap: break-word; /* 对于旧版本的IE浏览器 */
+  overflow-wrap: break-word; /* 标准属性 */
+  white-space: normal; /* 确保文本会在需要时换行 */
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+.content {
+  flex: 1;
+}
+
+footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+.center {
+  width: 100%;
+  max-width: 1000px; /* 限制图片最大宽度 */
+  height: auto; /* 保持图片原始宽高比 */
+}
+.Page2-1{
+  border: 2px solid white;
+  border-radius: 6px;
+  background-color:#9a9a9a;
+}
+.B {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  height: 100vh; 
+}
+.TheCat {
+  position: absolute; 
+  top: 20px; 
+  left: 650px; /* 距离左侧200像素 */
+}
